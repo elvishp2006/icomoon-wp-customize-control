@@ -33,9 +33,9 @@ class Icomoon_Customize_Control extends WP_Customize_Control
 	 */
 	public function enqueue()
 	{
-		wp_enqueue_style( 'iwcc-icons', plugins_url( 'icomoon-files/style.css', __FILE__ ), null );
-		wp_enqueue_style( 'iwcc-style', plugins_url( 'style.css', __FILE__ ), null );
-		wp_enqueue_script( 'iwcc-script', plugins_url( 'main.js', __FILE__ ), array( 'jquery', 'customize-base' ), false, true );
+		wp_enqueue_style( 'iwcc-icons', IWCC_URL . '/icomoon-files/style.css', null );
+		wp_enqueue_style( 'iwcc-style', IWCC_URL . '/style.css', null );
+		wp_enqueue_script( 'iwcc-script', IWCC_URL . '/main.js', array( 'jquery', 'customize-base' ), false, true );
 	}
 
 	/**

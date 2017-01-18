@@ -27,5 +27,7 @@
             "icomoon-customize-control.php"
         ]
     },
-    "require": {}
+    "require": {
+        "composer/installers": "~1.0"
+    }
 }
