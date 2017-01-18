@@ -1,0 +1,31 @@
+{
+    "name": "elvishp2006/icomoon-wp-customize-control",
+    "description": "Implement a custom IcoMoon control for WP Customize.",
+    "version": "0.1.0",
+    "type": "wordpress-plugin",
+    "keywords": [
+        "wordpress",
+        "customize",
+        "icomoon",
+        "kirki"
+    ],
+    "homepage": "https://github.com/elvishp2006/icomoon-wp-customize-control/",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Elvis Henrique Pereira",
+            "email": "elvishp2006@gmail.com"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/elvishp2006/icomoon-wp-customize-control/",
+        "issues": "https://github.com/elvishp2006/icomoon-wp-customize-control/issues/",
+        "email": "elvishp2006@gmail.com"
+    },
+    "autoload": {
+        "files": [
+            "icomoon-customize-control.php"
+        ]
+    },
+    "require": {}
+}
