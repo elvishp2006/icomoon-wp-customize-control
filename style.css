@@ -1,10 +1,13 @@
 .customize-control-icomoon label {
-	position: relative;
 	display: inline-block;
 	margin: 3px;
+	position: relative;
+	text-align: center;
+	width: 14%;
 }
 
 .customize-control-icomoon .icons-wrapper {
+	font-size: 0;
 	max-height: 300px;
 	overflow-y: scroll;
 	padding: 10px 0 10px;
@@ -16,11 +19,9 @@
 }
 
 .customize-control-icomoon .icons-wrapper .icomoon {
-	padding: 5px;
-	font-size: 20px;
-	width: 20px;
-	height: 20px;
 	border: 1px solid transparent;
+	font-size: 20px;
+	padding: 5px;
 }
 
 .customize-control-icomoon .icons-wrapper input {
