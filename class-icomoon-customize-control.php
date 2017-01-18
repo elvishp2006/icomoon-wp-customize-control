@@ -81,7 +81,7 @@ class Icomoon_Customize_Control extends WP_Customize_Control
 
 	public function get_icons()
 	{
-		$json = file_get_contents( plugins_url( 'icomoon-files/selection.json', __FILE__ ) );
+		$json = file_get_contents( IWCC_URL . '/icomoon-files/selection.json' );
 
 		if ( ! $json ) {
 			return false;
